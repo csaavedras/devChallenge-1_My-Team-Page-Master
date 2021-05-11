@@ -18,7 +18,7 @@ function Header() {
 export default Header
 
 const Container = styled.div`
-   margin-top: 80px;
+   margin-top: 60px;
    display: flex;
    justify-content: center;
    align-content: center;
