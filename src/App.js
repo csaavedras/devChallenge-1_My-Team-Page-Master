@@ -1,14 +1,21 @@
 import './App.css';
 import Header from './components/Header'
 import TeamPanel from './components/TeamPanel'
+import styled from 'styled-components'
 
 function App() {
   return (
-    <div className="App">
+    <Container>
       <Header />
       <TeamPanel/>
-    </div>
+    </Container>
   );
 }
 
 export default App;
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`

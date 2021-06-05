@@ -21,13 +21,21 @@ const Container = styled.div`
    margin-top: 60px;
    display: flex;
    justify-content: center;
-   align-content: center;
+   /* align-content: center; */
+
 `
 
 const Content = styled.div`
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    width: 65%;
+
+   @media (max-width: 850px){
+       flex-direction: column;
+       justify-content: center;
+       align-content: center;
+    
+    }
 
    h1 {
        font-size: 2rem;
@@ -38,6 +46,7 @@ const Content = styled.div`
    }
    
    .content__text {
+
        display: flex;
        flex-direction: column;
        font-family: 'Poppins', sans-serif;
@@ -57,6 +66,7 @@ const Content = styled.div`
         font-weight: 400;
         padding-right: 1rem;
         }
+
    }
 
 `
