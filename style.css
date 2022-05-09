@@ -7,6 +7,7 @@ body {
 
 main {
     padding-left: 1rem;
+    padding-right: 1rem;
     height: 100%;
     height: auto;
 }
@@ -33,20 +34,18 @@ img {
 }
 span {
     font-weight: 600;
-    font-size: 0.875rem;
-    
+    font-size: 0.875rem; 
 }
 .team {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 40px;
-
 }
-.team1 {
+.group_team {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    
+    gap: 60px;
 }
 .team2 {
     padding-top: 80px;
