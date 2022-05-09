@@ -19,6 +19,12 @@ h1 {
 h3 {
     text-transform: uppercase;
 }
+h4 {
+    writing-mode: vertical-rl;
+    position: absolute;
+    bottom: 95px;
+    left: calc(50% - 40px);
+}
 p {
     padding-bottom: 25px;
     width: 70%;
