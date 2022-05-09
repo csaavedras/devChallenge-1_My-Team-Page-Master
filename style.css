@@ -3,11 +3,12 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-color: #fafafa;
 }
 
 main {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     height: 100%;
     height: auto;
 }
