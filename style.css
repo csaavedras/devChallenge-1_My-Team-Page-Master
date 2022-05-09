@@ -46,8 +46,8 @@ span {
 .team {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     gap: 40px;
+    max-width: 600px;
 }
 .group_team {
     display: flex;
@@ -56,4 +56,10 @@ span {
 }
 .team2 {
     padding-top: 80px;
+}
+.main_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
