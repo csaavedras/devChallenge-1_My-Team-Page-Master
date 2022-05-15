@@ -65,6 +65,17 @@ span {
     justify-content: center;
     align-items: center;
 }
+.card {
+    width: 250px;
+    height: auto;
+}
+.main_cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 880px;
+}
 @media (min-width: 760px) {
   main {
       justify-content: center;
