@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{My Team Page}</h1>
+<h1 align="center">My Team Page by Me</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://dreamy-gnome-652026.netlify.app/">
+    <a href="https://www.figma.com/proto/F8d1qJsorEdY47N74HLxQ4/team-page-challenge?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1">
       Demo
     </a>
     <span> | </span>
@@ -62,5 +62,5 @@ I only use HTML and CSS to solve this challenge
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
 
 ## Contact
-- GitHub [@your-username](https://{github.com/csaavedras})
-- Twitter [@your-twitter](https://{twitter.com/cisaavedras})
+- GitHub [@csaavedras] <a href="https://{github.com/csaavedras">
+- Twitter [@cisaavedras] <a href="https://{twitter.com/cisaavedras">
