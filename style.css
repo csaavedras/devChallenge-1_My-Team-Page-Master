@@ -16,12 +16,6 @@ h1 {
 h3 {
     text-transform: uppercase;
 }
-h4 {
-    writing-mode: vertical-rl;
-    position: absolute;
-    bottom: 95px;
-    left: calc(50% - 40px);
-}
 p {
     padding-bottom: 25px;
     width: 70%;
@@ -41,12 +35,13 @@ span {
     padding-top: 80px;
 }
 .card {
-    width: 250px;
+    max-width: 250px;
+    /* min-width: 150px; */
     height: auto;
 }
 .main_cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 30px;
     max-width: 880px;
@@ -68,6 +63,14 @@ span {
   .main_hero p {
       width: 100%;
   }
-  
 }
-
+@media (max-width: 596px) {
+    .card {
+        max-width: 150px;
+    }
+}
+@media (max-width: 393px) {
+    .card {
+        max-width: 100px;
+    }
+}
